@@ -1,0 +1,166 @@
+@media only screen and (max-width: 768px) {
+	.dt { display: none; }
+	
+}
+
+@media only screen and (min-width: 768px) {
+	.dropdown {	display: none; }
+}
+
+body {
+    display: inline-table;
+}
+
+.dropdown {
+	position: absolute;
+	top: -21px;
+}
+
+.dropdown button {
+	margin: 10px 0 0 0 !important;
+	padding: 10px 20px !important;
+	color: #5a5858 !important;
+	background-color: transparent;
+	border: none;
+}
+
+.dropdown-menu {
+	text-align: right !important;
+	background-color: #efecec !important;
+	min-width: inherit !important;
+}
+
+.dropdown > .social {
+}
+
+.header {
+	background: linear-gradient(rgba(204, 204, 204, 0.3), rgba(204, 204, 204, 0.3)), url(images/hero.png);
+	background-size: cover;
+	background-position: center, 80%;
+}
+
+.header img {
+	position: absolute;
+	top: -21px;
+}
+
+.menu {
+	text-align: right;
+}
+
+.inline li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.inline a {
+	color: #5a5858 !important;
+}
+
+a.social {
+	color: #fa5c65 !important;
+}
+
+.content {
+	padding: 20px 10%; 
+}
+
+.slogan {
+	padding: 350px 0;
+}
+
+.slogan p {
+	color: #5a5858;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold !important;
+	text-transform: uppercase;
+}
+
+h1 { font-size: 45px !important; }
+h2 { font-size: 38px !important; }
+h3 { font-size: 34px !important; }
+h4 { font-size: 30px !important; }
+h5 { font-size: 25px !important; }
+
+big {
+	color: #fa5c65;
+}
+
+button {
+	background-color: #fa5c65;
+	color: white !important;
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	padding: 20px 35px !important;
+	margin: 20px 0 !important;
+}
+
+.info, .portfolio, .team {
+	margin: 100px 0; 
+}
+
+.macbook {
+	overflow: hidden;
+}
+
+.macbook img {
+	margin-left: -100px;
+	float: right;
+}
+
+.portfolio-text {
+	padding-top: 30px;
+}
+
+.bold {
+	font-weight: bold;
+	color: #5a5858 !important;
+}
+
+p {
+	color: #8a8989;
+	padding-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.more {
+	color: #fa5c65 !important;
+}
+
+.team img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.job {
+	color: #fa5c65;
+	font-weight: bold;
+}
+
+.bottom {
+	text-align: right;
+	padding-top: 30px;
+}
+
+footer a {
+	color: #b3afaf !important;
+	padding: 0 10px;
+}
+
+i {
+	font-size: 20px !important;
+}
+
+.footer-right {
+	text-align: right;
+}
